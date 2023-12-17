@@ -38,7 +38,15 @@ python server.py
 POST запрос на ваш сервер. Например:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"id":"1", "data":"test data"}' http://localhost:8080
+curl -X POST -H "Content-Type: application/json" -d '{"id":1, "data":"test data"}' http://localhost:8080
+```
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"id":2, "data":"test data2"}' http://localhost:8080
+```
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"id":3, "data":"test data3"}' http://localhost:8080
 ```
 
 - Выдача записи по уникальному инетификатору:  
